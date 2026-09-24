@@ -35,3 +35,8 @@ resource "azurerm_storage_data_lake_gen2_filesystem" "gold" {
   name               = "gold"
   storage_account_id = azurerm_storage_account.data_lake.id
 }
+
+resource "azurerm_storage_data_lake_gen2_filesystem" "managed" {
+  name               = "managed"
+  storage_account_id = azurerm_storage_account.data_lake.id
+}

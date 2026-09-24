@@ -47,3 +47,8 @@ output "location" {
   description = "Azure region where the foundation resources are deployed."
   value       = azurerm_resource_group.commercial_vehicle.location
 }
+
+output "managed_filesystem_name" {
+  description = "Name of the ADLS Gen2 managed filesystem for Unity Catalog."
+  value       = azurerm_storage_data_lake_gen2_filesystem.managed.name
+}

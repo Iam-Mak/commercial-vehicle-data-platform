@@ -222,6 +222,7 @@ __marimo__/
 *.tfstate
 *.tfstate.*
 *.tfplan
+*tfplan
 
 # macOS
 .DS_Store
